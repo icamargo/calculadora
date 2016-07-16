@@ -14,7 +14,7 @@ public class Calculadora extends JFrame{
     float resultado=0;
     private char operacao='a';
     
-    private static String labelPrefix = "Soma: ";
+    private static String labelPrefix = "Soma de 1+2: ";
     final JLabel lblMsg = new JLabel(labelPrefix);
     final JButton btn0 = new JButton("0");
     final JButton btn1 = new JButton("1");
